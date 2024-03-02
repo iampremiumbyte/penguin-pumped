@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PPP PENGUIN PUMPED PARADISE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img
+      src="/img/site - PPP PENGUIN PUMPED PARADISE.png"
+      alt=""
+      usemap="#image-map"
+    />
+
+    <!-- glowing boxes -->
+    <a href="/" class="box" id="box1"></a>
+    <a href="/" class="box" id="box2"></a>
+    <a href="/" class="box" id="box3"></a>
+    <a href="/" class="box" id="box4"></a>
+
+    <!-- image maps -->
+
+    <map name="image-map">
+      <area
+        target=""
+        alt="twitter 1"
+        title="twitter 1"
+        href=""
+        coords="1643,485,1883,694"
+        shape="rect"
+        id="area1"
+      />
+      <area
+        target=""
+        alt="twitter 2"
+        title="twitter 2"
+        href=""
+        coords="523,5006,762,5186"
+        shape="rect"
+        id="area2"
+      />
+      <area
+        target=""
+        alt="etherscan"
+        title="etherscan"
+        href=""
+        coords="876,5005,1113,5195"
+        shape="rect"
+        id="area3"
+      />
+      <area
+        target=""
+        alt="telegram"
+        title="telegram"
+        href=""
+        coords="1235,5001,1460,5209"
+        shape="rect"
+        id="area4"
+      />
+    </map>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.slim.min.js"
+      integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/rwdImageMaps.js"></script>
+    <script>
+      $(document).ready(function (e) {
+        $("img[usemap]").rwdImageMaps();
+      });
+    </script>
+    <script src="/app.js"></script>
+  </body>
+</html>

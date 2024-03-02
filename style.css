@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img {
+    width: 100%;
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    opacity: .2;
+    border-radius: 10px;
+    animation-name: dim;
+    animation-duration: .6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    z-index: 1;
+}
+
+@keyframes dim {
+    from {
+        opacity: .3;
+    }
+
+    to {
+        opacity: .1;
+    }
+}
