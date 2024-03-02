@@ -19,5 +19,5 @@ const styleBoxes = () => {
 
 setTimeout(() => {
     styleBoxes();
-}, 1000)
+}, 500)
 
